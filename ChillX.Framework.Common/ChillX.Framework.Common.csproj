@@ -61,6 +61,8 @@
     <Compile Include="Routing\RoutableMessageBase.cs" />
     <Compile Include="Routing\RoutingEndPoint.cs" />
     <Compile Include="Routing\MicroServiceEndPoint.cs" />
+    <Compile Include="Utility\FastMovingAverageDouble.cs" />
+    <Compile Include="Utility\FastMovingAverageInt.cs" />
     <Compile Include="WorkItem\IWorkItem.cs" />
     <Compile Include="WorkItem\WorkItem.cs" />
   </ItemGroup>
