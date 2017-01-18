@@ -11,6 +11,7 @@ namespace ChillX.Framework.Common.Routing
     /// <summary>
     /// Mime content type end point for message routing purposes
     /// </summary>
+    [Serializable]
     public class ContentTypeEndPoint : ISupportRoutingContentType
     {
         /// <summary>

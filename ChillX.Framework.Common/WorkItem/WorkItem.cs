@@ -1,4 +1,4 @@
-﻿using ChillX.Framework.Common.CapabilityInterface;
+﻿using ChillX.Framework.Common.Routing;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace ChillX.Framework.Common.WorkItem
 {
-    public interface IWorkItem : ISupportRouting
+    [Serializable]
+    public class WorkItem : RoutableMessageBase, IWorkItem
     {
+
     }
 }

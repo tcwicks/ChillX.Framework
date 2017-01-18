@@ -11,6 +11,7 @@ namespace ChillX.Framework.Common.Routing
     /// <summary>
     /// MicroService end point for routing purposes
     /// </summary>
+    [Serializable]
     public class MicroServiceEndPoint : ISupportRoutingMicroService
     {
         /// <summary>

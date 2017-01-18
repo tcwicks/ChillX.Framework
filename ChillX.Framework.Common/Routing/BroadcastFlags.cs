@@ -10,6 +10,7 @@ namespace ChillX.Framework.Common.Routing
     /// <summary>
     /// Message broadcast flags wrapper base class for message routing purposes
     /// </summary>
+    [Serializable]
     public class BroadcastFlags : ISupportRoutingBroadcast
     {
         private bool m_IsBroadcastMessage;

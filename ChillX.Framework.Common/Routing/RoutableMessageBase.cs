@@ -8,6 +8,10 @@ using ChillX.Framework.Common.CapabilityInterface;
 
 namespace ChillX.Framework.Common.Routing
 {
+    /// <summary>
+    /// Base class for all routable messages
+    /// </summary>
+    [Serializable]
     public class RoutableMessageBase : ISupportRouting
     {
         public RoutableMessageBase()

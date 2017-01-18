@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 
 namespace ChillX.Framework.Common.Routing
 {
+    /// <summary>
+    /// Unique end point of a node in the routing grid.
+    /// Note: This could be a client node or it could be a server node
+    /// </summary>
+    [Serializable]
     public class RoutingEndPoint : ISupportUniqueID, IEqualityComparer<RoutingEndPoint>
     {
         /// <summary>

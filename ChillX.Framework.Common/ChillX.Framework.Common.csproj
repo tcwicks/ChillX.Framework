@@ -59,7 +59,8 @@
     <Compile Include="Routing\RoutableMessageBase.cs" />
     <Compile Include="Routing\RoutingEndPoint.cs" />
     <Compile Include="Routing\MicroServiceEndPoint.cs" />
-    <Compile Include="WorkItem\iWorkItem.cs" />
+    <Compile Include="WorkItem\IWorkItem.cs" />
+    <Compile Include="WorkItem\WorkItem.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
