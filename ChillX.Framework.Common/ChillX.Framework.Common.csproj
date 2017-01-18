@@ -55,6 +55,7 @@
     <Compile Include="CapabilityInterface\ISupportRoutingContentType.cs" />
     <Compile Include="CapabilityInterface\ISupportRoutingMicroService.cs" />
     <Compile Include="CapabilityInterface\ISupportRoutingBroadcast.cs" />
+    <Compile Include="Routing\MessageRouter.cs" />
     <Compile Include="Routing\RoutableMessageBase.cs" />
     <Compile Include="Routing\RoutingEndPoint.cs" />
     <Compile Include="Routing\MicroServiceEndPoint.cs" />

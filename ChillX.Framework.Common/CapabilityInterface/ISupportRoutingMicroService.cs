@@ -21,6 +21,18 @@
         string FunctionName { get; }
 
         /// <summary>
+        /// Routing Key which is in the format string.concat(<see cref="MicroServiceName"/>, @":", <see cref="FunctionGroupName"/>, @":", <see cref="FunctionName"/>)
+        /// Note: this is a lower case trimmed invariant culture string
+        /// </summary>
+        string RoutingKey { get; }
+
+        /// <summary>
+        /// Pre-calculated hashcode. This value should be calculated by constructor
+        /// and also whenever the routing key is changed <see cref="RoutingKey"/> is changed by changing either <see cref="MicroServiceName"/> or <see cref="FunctionGroupName"/> or <see cref="FunctionName"/>
+        /// </summary>
+        int CachedHashCode { get; }
+
+        /// <summary>
         /// Assign new value for micro service name <see cref="MicroServiceName"/>
         /// </summary>
         /// <param name="_MicroServiceName"></param>
